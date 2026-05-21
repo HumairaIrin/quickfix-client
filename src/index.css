@@ -1,0 +1,11 @@
+/* === Infinite Logo Marquee Animation === */
+@keyframes marqueeLogos {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-logo-marquee {
+  display: flex;
+  width: max-content;
+  animation: marqueeLogos 20s linear infinite;
+}
